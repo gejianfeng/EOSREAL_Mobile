@@ -1,0 +1,138 @@
+/* font */
+@font-face {
+	font-family: "Calibri Light";
+	src: url(assets/font/calibril.ttf);
+}
+
+@font-face {
+	font-family: "Calibri Regular";
+	src: url(assets/font/calibri.ttf);
+}
+
+@font-face {
+	font-family: "Impact Regular";
+	src: url(assets/font/impact.ttf);
+}
+
+@font-face {
+	font-family: "Helvetica";
+	src: url(assets/font/Helvetica.ttf);
+}
+
+/* global stylesheet */
+body {
+	margin: 0px auto;
+	min-width: 1024px;
+	text-align: center;
+}
+
+.wrap {
+	width: 1024px;
+	height: 100%;
+	margin: 0px auto;
+	position: relative;
+}
+
+/* footer stylesheet */
+#footer {
+	height: 178px;
+	background-color: rgb(68, 63, 83);
+	max-width: 1920px;
+	position: relative;
+	margin: 0px auto;
+}
+
+#footer .logo {
+	text-align: center;
+	font-family: "Calibri Regular";
+	color: rgb(174, 169, 191);
+	font-size: 42px;
+	top: 46px;
+	width: 100%;
+	position: absolute;
+}
+
+#footer .content {
+	text-align: center;
+	font-family: "Helvetica";
+	color: rgb(174, 142, 165);
+	font-size: 24px;
+	top: 125px;
+	position: absolute;
+}
+
+#footer .email {
+	left: 164px;
+}
+
+#footer .terms {
+	left: 470px;
+}
+
+#footer .privacy {
+	right: 164px;
+}
+
+/* index.php stylesheet */
+#index { 
+	width: 1024px;
+	margin: 0px auto;
+	position: relative; 
+}
+
+#index .background {
+	background-image: url(assets/image/0/home_bg_1125_2436.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	height: 2172px;
+	margin: 0px auto;
+	position: relative;
+}
+
+#index .logo {
+	background-image: url(assets/image/0/home_esoreal@3x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	height: 172px;
+	width: 100%;
+	top: 176px;
+	position: absolute;
+}
+
+#index .sub-title {
+	text-align: center;
+	font-family: "Helvetica";
+	color: rgb(119, 123, 132);
+	font-size: 50px;
+	top: 385px;
+	width: 100%;
+	position: absolute;
+}
+
+#index .arrow {
+	background-image: url(assets/image/0/home_arrow@3x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	height: 96px;
+	width: 100%;
+	top: 650px;
+	position: absolute;
+}
+
+#index .icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	height: 132px;
+	width: 132px;
+	top: 850px;
+	position: absolute;
+}
+
+#index .email {
+	background-image: url(assets/image/0/home_arrow@3x.png);
+	left: px;
+}
