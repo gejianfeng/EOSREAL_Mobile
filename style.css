@@ -85,7 +85,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	overflow: visible;
-	height: 2172px;
+	height: 1524px;
 	margin: 0px auto;
 	position: relative;
 }
@@ -97,7 +97,7 @@ body {
 	overflow: visible;
 	height: 172px;
 	width: 100%;
-	top: 176px;
+	top: 276px;
 	position: absolute;
 }
 
@@ -106,7 +106,7 @@ body {
 	font-family: "Helvetica";
 	color: rgb(119, 123, 132);
 	font-size: 50px;
-	top: 385px;
+	top: 485px;
 	width: 100%;
 	position: absolute;
 }
@@ -118,7 +118,7 @@ body {
 	overflow: visible;
 	height: 96px;
 	width: 100%;
-	top: 650px;
+	top: 700px;
 	position: absolute;
 }
 
@@ -128,11 +128,53 @@ body {
 	overflow: visible;
 	height: 132px;
 	width: 132px;
-	top: 850px;
 	position: absolute;
 }
 
 #index .email {
-	background-image: url(assets/image/0/home_arrow@3x.png);
-	left: px;
+	background-image: url(assets/image/0/home_icon_email_unpressed@3x.png);
+	left: 113px;
+	top: 1050px;
+}
+
+#index .twitter {
+	background-image: url(assets/image/0/home_icon_twitter_unpressed@3x.png);
+	left: 335px;
+	top: 1050px;
+}
+
+#index .wechat {
+	background-image: url(assets/image/0/home_icon_wechat_unpressed@3x.png);
+	left: 555px;
+	top: 1050px;
+}
+
+#index .weibo {
+	background-image: url(assets/image/0/home_icon_weibo_unpressed@3x.png);
+	left: 777px;
+	top: 1050px;
+}
+
+#index .telegram {
+	background-image: url(assets/image/0/home_icon_telegram_unpressed@3x.png);
+	left: 113px;
+	top: 1250px;
+}
+
+#index .medium {
+	background-image: url(assets/image/0/home_icon_medium_unpressed@3x.png);
+	left: 335px;
+	top: 1250px;
+}
+
+#index .treemit {
+	background-image: url(assets/image/0/home_icon_treemit_unpressed@3x.png);
+	left: 555px;
+	top: 1250px;
+}
+
+#index .youtobe {
+	background-image: url(assets/image/0/home_icon_youtobe_unpressed@3x.png);
+	left: 777px;
+	top: 1250px;
 }
