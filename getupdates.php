@@ -6,6 +6,8 @@ Template Name: getupdates.php
 
 <?php get_header(); ?>
 
+<?php get_nav_header(); ?>
+
 <div id="getupdates">
 	<div class="wrap">
 		
@@ -34,6 +36,22 @@ Template Name: getupdates.php
 </div>
 
 <script type="text/javascript">
+
+var bMenuShow = false;
+
+function showMenu()
+{
+	if (bMenuShow)
+	{
+		bMenuShow = false;
+		$("#menu").hide();
+	}
+	else
+	{
+		bMenuShow = true;
+		$("#menu").show();
+	}
+}
 
 function ValidSubmit()
 {

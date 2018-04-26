@@ -6,6 +6,8 @@ Template Name: index.php
 
 <?php get_header(); ?>
 
+<?php get_nav_header(); ?>
+
 <div id="index">
 	<div class="background"></div>
 	<div class="logo"></div>
@@ -20,5 +22,25 @@ Template Name: index.php
 	<div class="icon treemit" onclick="window.location.href='https://steemit.com/@eosreal-io';"></div>
 	<div class="icon youtobe" onclick="window.location.href='https://www.youtube.com/channel/UCDa2gIsEQway1DPNjMYar8g?view_as=subscriber';"></div>
 </div>
+
+<script type="text/javascript">
+
+var bMenuShow = false;
+
+function showMenu()
+{
+	if (bMenuShow)
+	{
+		bMenuShow = false;
+		$("#menu").hide();
+	}
+	else
+	{
+		bMenuShow = true;
+		$("#menu").show();
+	}
+}
+
+</script>
 
 <?php get_footer(); ?>
