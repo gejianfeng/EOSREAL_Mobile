@@ -366,3 +366,142 @@ body {
 	left: 40px;
 	position: absolute;
 }
+
+/* events.php stylesheet */
+#events { 
+	width: 1024px;
+	margin: 0px auto;
+	position: relative; 
+}
+
+#events .title {
+	font-family: "Helvetica";
+	font-size: 50px;
+	color: rgb(68, 63, 84);
+	width: 100%;
+	margin-top: 48px;
+	padding-left:48px;
+	padding-right: 48px;
+	position: relative;
+}
+
+#events .sub-info {
+	position: relative;
+	margin-top: 20px;
+	height: 120px;
+}
+
+#events .head-icon {
+	background-image: url(assets/image/4/events_portrait@3x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	width: 120px;
+	height: 120px;
+	top: 0px;
+	left: 48px;
+	position: absolute;
+}
+
+#events .author {
+	font-family: "Helvetica";
+	font-size: 40px;
+	color: rgb(119, 116, 129);
+	left: 190px;
+	top: 30px;
+	position: absolute;
+}
+
+#events .photo {
+	background-image: url(assets/image/4/events_pic1@2x.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	background-size: 928px 520px;
+	margin-left: 48px;
+	width: 928px;
+	height: 520px;
+	margin-top: 34px;
+	position: relative;
+}
+
+#events .content {
+	font-family: "Helvetica";
+	font-size: 50px;
+	color: rgb(68, 63, 84);
+	position: relative;
+	margin-top: 42px;
+	padding-left: 48px;
+	padding-right: 48px;
+	width: 100%;
+	position: relative;
+	text-align: left;
+	line-height: 1.8;
+}
+
+#events .frame {
+	border-width: 0px;
+	background-color: rgb(246, 247, 248);
+	margin-top: 44px;
+	margin-left: 48px;
+	margin-right: 48px;
+	height: 250px;
+	position: relative;
+}
+
+#events .icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	left: 34px;
+	width: 42px;
+	height: 48px;
+	position: absolute;
+}
+
+#events .location-icon {
+	background-image: url(assets/image/4/events_icon_place@3x.png);
+	top: 42px;
+}
+
+#events .time-icon {
+	background-image: url(assets/image/4/events_icon_time@3x.png);
+	top: 120px;
+}
+
+#events .frame-text {
+	font-family: "Helvetica";
+	font-size: 40px;
+	color: rgb(68, 63, 84);
+	text-align: left;
+	left: 80px;
+	position: absolute;
+	padding-right: 34px;
+}
+
+#events .time-text {
+	top: 35px;
+}
+
+#events .location-text {
+	top: 115px;
+}
+
+#events .button {
+	background-image: url(assets/image/4/events_button_3x.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	margin-left: 48px;
+	margin-right: 48px;
+	height: 152px;
+	margin-top: 50px;
+	position: relative;
+	margin-bottom: 50px;
+
+	font-family: "Helvetica";
+	font-size: 60px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding-top: 30px;
+}
