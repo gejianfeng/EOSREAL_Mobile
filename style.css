@@ -296,6 +296,7 @@ body {
 #banner .menu-frame {
 	max-width: 1920px;
 	min-width: 1024px;
+	width: 100%;
 	height: 480px;
 	left: 0px;
 	top: 102px;
@@ -309,6 +310,7 @@ body {
 	height: 120px;
 	left: 0px;
 	position:absolute;
+	width: 100%;
 
 	font-family: "Helvetica";
 	font-size: 50px;
@@ -339,6 +341,7 @@ body {
 	min-width: 1024px;
 	position:absolute;
 	left: 0px;
+	width: 100%;
 	background-color: rgb(140, 137, 148);
 	height: 1px;
 }
@@ -504,4 +507,140 @@ body {
 	color: rgb(255, 255, 255);
 	text-align: center;
 	padding-top: 30px;
+}
+
+/* team.php stylesheet */
+#team { 
+	width: 1024px;
+	margin: 0px auto;
+	position: relative; 
+}
+
+#team .cell {
+	height: 180px;
+	width: 100%;
+	position: relative;
+}
+
+#team .image {
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	height: 144px;
+	width: 144px;
+	position: absolute;
+	top: 18px;
+	left: 48px;
+}
+
+#team .image1 {
+	background-image: url(assets/image/3/team_Ambreem@3x.png);
+}
+
+#team .image2 {
+	background-image: url(assets/image/3/team_Yifeng@3x.png);
+}
+
+#team .image3 {
+	background-image: url(assets/image/3/team_Phoebe@3x.png);
+}
+
+#team .image4 {
+	background-image: url(assets/image/3/team_Grace@3x.png);
+}
+
+#team .image5 {
+	background-image: url(assets/image/3/team_Felicia@3x.png);
+}
+
+#team .name {
+	font-family: "Helvetica";
+	font-size: 60px;
+	color: rgb(139, 137, 146);
+	text-align: left;
+	left: 225px;
+	top: 50px;
+	position: absolute;
+}
+
+#team .arrow {
+	background-image: url(assets/image/3/team_arrow@3x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	height: 54px;
+	width: 30px;
+	position: absolute;
+	top: 63px;
+	right: 48px;
+}
+
+#team .line {
+	background-color: rgb(140, 137, 148);
+	left: 48px;
+	bottom: 0px;
+	position: absolute;
+	width: 930px;
+	height: 1px;
+}
+
+/* memberinfo.php stylesheet */
+#memberinfo {
+	width: 1024px;
+	margin: 0px auto;
+	position: relative; 
+}
+
+#memberinfo .image {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 180px 180px;
+	overflow: visible;
+	width: 100%;
+	height: 180px;
+	position: relative;
+	margin-top: 48px;
+}
+
+#memberinfo .image1 {
+	background-image: url(assets/image/5/team_pic1@3x.png);
+}
+
+#memberinfo .image2 {
+	background-image: url(assets/image/5/team_pic2@3x.png);
+}
+
+#memberinfo .image3 {
+	background-image: url(assets/image/5/team_pic3@3x.png);
+}
+
+#memberinfo .image4 {
+	background-image: url(assets/image/5/team_pic4@3x.png);
+}
+
+#memberinfo .image5 {
+	background-image: url(assets/image/5/team_pic5@3x.png);
+}
+
+#memberinfo .name {
+	font-family: "Helvetica";
+	font-size: 60px;
+	color: rgb(68, 63, 84);
+	text-align: center;
+	width: 100%;
+	position: relative;
+	margin-top: 18px;
+}
+
+#memberinfo .content {
+	font-family: "Helvetica";
+	font-size: 50px;
+	color: rgb(68, 63, 84);
+	text-align: left;
+	width: 100%;
+	position: relative;
+	margin-top: 54px;
+	padding-left: 48px;
+	padding-right: 48px;
+	line-height: 1.8;
 }
