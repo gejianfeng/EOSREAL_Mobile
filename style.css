@@ -644,3 +644,83 @@ body {
 	padding-right: 48px;
 	line-height: 1.8;
 }
+
+/* resources.php stylesheet */
+
+#resources { 
+	width: 1024px;
+	margin: 0px auto;
+	position: relative; 
+}
+
+#resources .cell {
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+
+#resources .title {
+	font-family: "Helvetica";
+	font-size: 50px;
+	color: rgb(68, 63, 84);
+	text-align: left;
+	position: relative;
+	margin-top: 52px;
+	padding-left: 48px;
+	padding-right: 48px;
+	width: 100%;
+	line-height: 1.8;
+}
+
+#resources .date-cell {
+	width: 100%;
+	margin-top: 30px;
+	position: relative;
+	height: 30px;
+}
+
+#resources .date-line {
+	width: 52px;
+	height: 1px;
+	background-color: rgb(167, 169, 174);
+	left: 48px;
+	top: 25px;
+	position: absolute;
+}
+
+#resources .date {
+	font-family: "Helvetica";
+	font-size: 35px;
+	color: rgb(167, 169, 174);
+	text-align: left;
+	position: absolute;
+	top: 0px;
+	left: 110px;
+}
+
+#resources .content {
+	font-family: "Helvetica";
+	font-size: 45px;
+	color: rgb(167, 169, 174);
+	text-align: left;
+	position: relative;
+	margin-top: 40px;
+	padding-left: 48px;
+	padding-right: 48px;
+	line-height: 1.8;
+}
+
+#resources .line {
+	height: 1px;
+	margin-top: 60px;
+	margin-left: 48px;
+	margin-right: 48px;
+	position: relative;
+	background-color: rgb(167, 169, 174);
+}
+
+#resources .bottom {
+	height: 100px;
+	position: relative;
+	width: 100%;
+}
