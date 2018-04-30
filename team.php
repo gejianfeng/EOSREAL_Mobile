@@ -54,9 +54,11 @@ $(document).ready(function() {
 		var name = data.name;
 
 		html_code += '<div class="cell" onclick="window.location.href=\'' + url + '\';">';
+		html_code += '<div class="cell-container">';
 		html_code += '<div class="image ' + image + '"></div>';
 		html_code += '<div class="name">' + name + '</div>';
 		html_code += '<div class="arrow"></div>';
+		html_code += '</div>';
 		html_code += '<div class="line"></div>';
 		html_code += '</div>';
 	}

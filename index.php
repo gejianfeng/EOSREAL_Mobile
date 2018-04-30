@@ -43,4 +43,5 @@ function showMenu()
 
 </script>
 
-<?php get_footer(); ?>
+</body>
+</html>
