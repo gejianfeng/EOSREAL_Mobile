@@ -180,9 +180,9 @@ body {
 
 /* getupdates.php stylesheet */
 #getupdates { 
-	width: 1024px;
+	width: 100%;
 	margin: 0px auto;
-	position: relative; 
+	position: relative;
 }
 
 #getupdates .title {
@@ -190,45 +190,62 @@ body {
 	font-family: "Helvetica";
 	color: rgb(68, 63, 84);
 	font-size: 60px;
-	top: 148px;
-	left: 48px;
-	position: absolute;
+	margin-top: 148px;
+	width: 100%;
+	padding-left: 48px;
+	padding-right: 48px;
+	position: relative;
+}
+
+#getupdates .input-box-container {
+	position: relative;
+	margin-left: 48px;
+	margin-right: 48px;
 }
 
 #getupdates .input-box {
 	font-family: "Helvetica";
 	color: rgb(167, 169, 174);
 	font-size: 40px;
-	left: 48px;
+	width: 100%;
 	border-top-style: none;
 	border-right-style: none;
 	border-left-style: none;
 	border-bottom-style: solid;
 	padding-bottom: 30px;
-	width: 900px;
-	position:absolute;
+	position: relative;
 }
 
 #getupdates .name-field {
-	top: 330px;
+	margin-top: 134px;
 }
 
 #getupdates .email-field {
-	top: 490px;
+	margin-top: 50px;
 }
 
 #getupdates .check-field {
 	font-family: "Helvetica";
-	position: absolute;
+	position: relative;
 	font-size: 30px;
 	color: rgb(255, 0, 0);
-	left: 48px;
-	top: 600px;
+	padding-left: 48px;
+	padding-right: 48px;
+	margin-top: 30px;
+	text-align: left;
+	width: 100%;
 	display: none;
 }
 
+#getupdates .submit-container {
+	margin-left: 48px;
+	margin-right: 48px;
+	margin-top: 84px;
+	position: relative;
+}
+
 #getupdates .subscribe-submit {
-	width: 900px;
+	width: 100%;
 	height: 136px;
 	background: url(assets/image/1/login_button_submit@3x.jpg);
 	font-family: "Helvetica";
@@ -236,9 +253,7 @@ body {
 	color: rgb(255, 255, 255);
 	text-align: center;
 	border: 0px;
-	left: 48px;
-	position: absolute;
-	top: 750px;
+	position: relative;
 }
 
 #getupdates .result {

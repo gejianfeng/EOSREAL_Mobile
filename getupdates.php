@@ -9,7 +9,6 @@ Template Name: getupdates.php
 <?php get_nav_header(); ?>
 
 <div id="getupdates">
-	<div class="wrap">
 		
 <?php
 	$home_url = home_url();
@@ -19,12 +18,18 @@ Template Name: getupdates.php
 
 ?>
 		<div class="title">Subscribe</div>
-		<input id="name" name="nn" class="input-box name-field" type="text" placeholder="Name"/>
-		<input id="mail" name="ne" class="input-box email-field" type="text" placeholder="Email Address"/>
+		<div class="input-box-container name-field">
+			<input id="name" name="nn" class="input-box" type="text" placeholder="Name"/>
+		</div>
+		<div class="input-box-container email-field">
+			<input id="mail" name="ne" class="input-box" type="text" placeholder="Email Address"/>
+		</div>
 
 		<div id="check" class="check-field">Email is not filled.</div>
 
-		<input id="submit" name="submit" class="subscribe-submit" type="submit" value="SUBMIT">
+		<div class="submit-container">
+			<input id="submit" name="submit" class="subscribe-submit" type="submit" value="SUBMIT">
+		</div>
 
 		<input type="hidden" name="nr" value="widget">
 		<input type="hidden" name="nl[]" value="0">
@@ -32,7 +37,6 @@ Template Name: getupdates.php
 	echo '</form>';
 ?>
 
-	</div>
 </div>
 
 <script type="text/javascript">
