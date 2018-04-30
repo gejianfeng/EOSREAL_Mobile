@@ -366,12 +366,12 @@ body {
 }
 
 #banner .icon-back {
-	background-image: url(assets/image/1/login_close@3x.png);
+	background-image: url(assets/image/2/resources_back@3x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	overflow: visible;
-	height: 48px;
-	width: 58px;
+	height: 54px;
+	width: 34px;
 	top: 31px;
 	left: 40px;
 	position: absolute;
@@ -737,4 +737,226 @@ body {
 	height: 100px;
 	position: relative;
 	width: 100%;
+}
+
+/* news.php stylesheet */
+#news {
+	width: 100%;
+	margin: 0px auto;
+	position: relative;
+}
+
+#news .title {
+	font-family: "Helvetica";
+	font-size: 60px;
+	color: rgb(68, 63, 84);
+	text-align: left;
+	position: relative;
+	margin-top: 52px;
+	padding-left: 48px;
+	padding-right: 48px;
+	line-height: 1.8;
+	width: 100%;
+}
+
+#news .date-container {
+	width: 100%;
+	height: 60px;
+	margin-top: 30px;
+	position: relative;
+}
+
+#news .date-line {
+	width: 52px;
+	height: 1px;
+	position: absolute;
+	left: 48px;
+	top: 23px;
+	background-color: rgb(167, 169, 174);
+}
+
+#news .date {
+	font-family: "Helvetica";
+	font-size: 30px;
+	color: rgb(167, 169, 174);
+	text-align: left;
+	position: absolute;
+	top: 0px;
+	left: 120px;
+}
+
+#news .article-content {
+	font-family: "Helvetica";
+	font-size: 50px;
+	color: rgb(90, 90, 90);
+	text-align: left;
+	position: relative;
+	margin-top: 40px;
+	padding-left: 48px;
+	padding-right: 48px;
+	line-height: 1.7;
+	width: 100%;
+}
+
+#news .article-comment {
+	width: 100%;
+	height: auto;
+	margin-top: 66px;
+	position: relative;
+	margin-bottom: 70px;
+}
+
+#news .article-comment-div {
+	width: 100%;
+	height: 70px;
+	position: relative;
+}
+
+#news .comment-form-title {
+	font-family: "Helvetica";
+	font-size: 50px;
+	color: rgb(90, 90, 90);
+	text-align: left;
+	position: absolute;
+	width: 100%;
+	left: 48px;
+	top: 0px;
+}
+
+#news .subscribe {
+	font-family: "Helvetica";
+	font-size: 50px;
+	color: rgb(90, 90, 90);
+	text-align: right;
+	position: absolute;
+	width: 100%;
+	right: 48px;
+	top: 0px;
+}
+
+#news .comment-form {
+	width: 100%;
+	position: relative;
+	margin-top: 30px;
+	height: 275px;
+}
+
+#news .comment-field {
+	margin-right: 48px;
+	margin-left: 48px;
+	height: 178px;
+	position: relative;
+}
+
+#news .comment-box {
+	height: 100%;
+	width: 100%;
+	resize: none;
+	font-family: "Helvetica";
+	font-size: 30px;
+	padding: 22px;
+	color: rgb(68, 63, 84);
+	border:solid 1px #5a5a5a;
+}
+
+#news .comment-button-container {
+	margin-top: 28px;
+	width: 100%;
+	height: 70px;
+	position: relative;
+}
+
+#news .comment-submit {
+	width: 260px;
+	height: 70px;
+	background-color: rgb(209, 162, 51);
+	font-family: "Calibri Light";
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	border: 0px;
+	right: 48px;
+	position: absolute;
+}
+
+#news .bottom-placeholder {
+	position: relative;
+	width: 100%;
+	height: 0px;
+	margin-bottom: 30px;
+	margin-top: 74px;
+}
+
+#news .comment-history {
+	position: relative;
+	margin-left: 48px;
+	margin-right: 48px;
+	height: auto;
+	margin-top: 74px;
+}
+
+#news .result {
+	font-family: "Helvetica";
+	position: relative;
+	font-size: 60px;
+	color: rgb(68, 63, 84);
+	margin-top: 500px;
+}
+
+#news .comment-single {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	margin-bottom: 0px;
+	margin-top: 54px;
+}
+
+#news .comment-photo {
+	background-image: url(assets/image/2/resources_pic@3x.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	height: 126px;
+	width: 126px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#news .comment-time {
+	font-family: "Helvetica";
+	font-size: 30px;
+	color: rgb(167, 169, 174);
+	position: absolute;
+	right: 0px;
+	text-align: right;
+	top: 5px;
+}
+
+#news .comment-author {
+	font-family: "Helvetica";
+	font-size: 40px;
+	color: rgb(209, 161, 51);
+	position: absolute;
+	left: 145px;
+	top: 0px;
+	text-align: left;
+}
+
+#news .comment-body {
+	font-family: "Helvetica";
+	font-size: 40px;
+	color: rgb(167, 169, 174);
+	position: absolute;
+	left: 145px;
+	top: 45px;
+	text-align: left;
+}
+
+#news .comment-split-line {
+	height: 1px;
+	width: 100%;
+	position: absolute;
+	background-color: rgb(167, 169, 174);
+	bottom: 1px;
 }

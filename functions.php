@@ -66,6 +66,10 @@ function get_back_header()
 	{
 		$ret_url = $team_url;
 	}
+	else if (is_page('news'))
+	{
+		$ret_url = $resources_url;
+	}
 
 	$ret = '';
 	$ret .= '<div class="banner-container">';
