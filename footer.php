@@ -11,7 +11,7 @@ Template Name: footer.php
 
 	$ret = '';
 	$ret .= '<div class="logo" onclick="window.location.href=\'' . $home_url . '\';">EOSREAL</div>';
-	$ret .= '<div class="content email">support@block.one</div>';
+	$ret .= '<div class="content email">eos@eosreal.com</div>';
 	$ret .= '<div class="content terms">Terms of Use</div>';
 	$ret .= '<div class="content privacy">Privacy Policy</div>';
 
